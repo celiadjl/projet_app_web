@@ -1,0 +1,39 @@
+.parent{
+    position: relative;
+}
+
+.coord{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.titre{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.categorie{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.description{
+    position: absolute;
+    left: 30px;
+    top: 90px;
+}
+
+.prix{
+    position: absolute;
+    left: 30px;
+    top: 280px;
+}
+
+.images{
+    position: absolute;
+    left: 30px;
+    top: 310px;
+}

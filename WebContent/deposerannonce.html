@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Déposer une annonce</title>
+        <link rel="stylesheet" href="css/style_deposer_annonce.css">
+    </head>
+    <body>
+        <h3>Déposer une annonce</h3>
+        <form action="deposerannonce.html">
+            <div class="parent">
+                <div class="titre">
+                    <label>Titre</label>
+                    <input type = "text" name = "titre"/><br/>
+                </div>
+
+                <div class="coord">
+                    <label>Coordonnées</label><br/>
+                        <label>Tél.</label>
+                        <input type = "text" name = "tel"/><br/>
+                        <label>Mail</label>
+                        <input type = "text" name = "mail"/><br/>
+                        <label>Ville</label>
+                        <input type = "text" name = "ville"/><br/>
+                </div>
+
+                <div class="categorie">
+                    <label>Catégorie</label>
+                    <input type = "text" name = "categorie"/><br/>
+                </div>
+
+                <div class="description">
+                    <label>Description</label>
+                    <textarea name="description" id="" cols="30" rows="10"></textarea><br/>
+                </div>
+
+                <div class="prix">
+                    <label>Prix</label>
+                    <input type = "text" name = "prix"/>€<br/>
+                </div>
+
+                <div class="images">
+                    <label>Images</label><br/>
+                    <input type = "submit" value = "Déposer l'annonce">
+                </div>
+                
+            </div>
+        </form>
+    </body>
+</html>

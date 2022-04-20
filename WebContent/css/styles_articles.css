@@ -1,0 +1,57 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Haut de la page */
+
+
+header.header {
+    display: flex;
+    padding: 20px;
+    box-shadow: unset;
+}
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    padding: 25px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.btn_menu {
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+}
+
+section.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.grille_articles{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 85%;
+}
+
+.article_item {
+    padding: 20px;
+    width: 150px;
+    background-color: gainsboro;
+    margin: 20px;
+}
+
+.article_item img {
+
+    background-color: violet;
+
+}
+
